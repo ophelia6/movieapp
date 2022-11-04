@@ -1,0 +1,19 @@
+.Menu {padding: 42px 0;position: relative;}
+.Menu .Author-img{width: 90px;height: 90px;margin: 0 auto;border-radius: 50%;overflow: hidden;}
+.Menu .Author-img img{width: 100%;height: auto;display: block;}
+.Menu .Author-name{color:#D4D7DD;font-family: "OpenSans-SemiBold",Arial, Helvetica, sans-serif;font-size: 20px;text-align: center;padding: 12px 0 20px;}
+.Menu-List{padding:10px 0}
+.Menu-List ul li a{padding:10px 10px 10px 52px;display: flex;align-items: center;font-size: 15px;color:#D4D7DD}
+.Menu-List ul li a .Icon{padding-right: 10px;}
+.Menu-List ul li a svg{display: block;}
+.Menu-list1{border-top:1px solid #394B61 ;border-bottom:1px solid #394B61;}
+.Menu-list2{border-bottom:1px solid #394B61;}
+.Menu-List ul li.Menu-active a{color: #00E0FF;}
+.Menu-List ul li.Menu-active svg path{fill:#00E0FF}
+.Menu-close{position: absolute;top: 10px;right: 10px;cursor: pointer;display: none;}
+@media only screen and (max-width: 955px) {
+    .Menu-List ul li a {padding:10px 25px;}
+}
+@media only screen and (max-width: 699px) {
+    .Menu-close{display: block;}
+}
